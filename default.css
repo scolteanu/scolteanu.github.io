@@ -1,0 +1,415 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    color: #666666;
+
+
+}
+p {
+    text-align: justify;
+}
+
+a {
+    color: #135293;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.title1 {
+    margin: 0;
+    padding: 10px 0;
+    background: url(images/img07.gif) repeat-x left bottom;
+    font-weight: normal;
+    font-size: 129%;
+    color: #135293;
+}
+
+.title2 {
+    margin: 0;
+    padding: 10px 0;
+    background: url(images/img09.gif) repeat-x left bottom;
+    font-size: 200%;
+    font-weight: normal;
+    color: #135293;
+}
+
+.boxed {
+    padding: 5px 30px 20px 30px;
+    background: #ffffff;
+}
+
+.boxed p, .boxed ul, .boxed ol {
+    line-height: 180%;
+}
+/* Page */
+
+#page {
+    width: 980px;
+    margin: 0 auto;
+    background: #fff url(images/img01a.gif) repeat-y;
+}
+
+/* Sidebar */
+
+#sidebar {
+    float: left;
+    width: 240px;
+}
+
+/* Logo */
+#logo {
+    height: 300px;
+    background: #FFFFFF url(images/img02.gif) repeat-y right top;
+}
+#logoIm {
+    padding: 60px 0px 46px 40px;
+}
+
+#logo h1, #logo h2 {
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    color: #9C9C9C;
+}
+
+#logo h1 {	
+    font-size: 36px;
+}
+
+#logo h2 {
+
+    padding: 10px 0 0 0;
+    font-size: 12px;
+}
+
+#logo a {
+    color: #9C9C9C;
+    text-decoration: none;
+}
+
+/* Menu */
+
+#menu {
+    padding: 20px;
+    background: #3761b7 url(images/img05.gif) repeat-x;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu li {
+    padding: 10px 0;
+    background: url(images/img05.gif) repeat-x;
+}
+
+#menu li.first {
+    background: none;
+}
+
+#menu a {
+    text-decoration: none;
+    font-size: 100%;        
+    color: #ffffff;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+/* Content */
+
+#content {
+    float: right;
+    width: 740px;
+}
+
+.card {
+    border-style: solid;
+    border-width: 1px;
+    width: 215px;
+    margin:0px 0px 0px 0px;padding:0px;
+    box-shadow: 6px 6px 5px #AAAAAA;
+    -moz-border-radius-bottomleft:5px;
+    -webkit-border-bottom-left-radius:5px;
+    border-bottom-left-radius:5px;
+
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-bottom-right-radius:5px;
+    border-bottom-right-radius:5px;
+
+    -moz-border-radius-topright:5px;
+    -webkit-border-top-right-radius:5px;
+    border-top-right-radius:5px;
+
+    -moz-border-radius-topleft:5px;
+    -webkit-border-top-left-radius:5px;
+    border-top-left-radius:5px;
+}
+
+.CSSTable {
+    margin:10px 0px 0px 0px;padding:0px;
+    width:100%;
+    box-shadow: 6px 6px 5px #AAAAAA;
+    border:1px solid #000000;
+
+    -moz-border-radius-bottomleft:5px;
+    -webkit-border-bottom-left-radius:5px;
+    border-bottom-left-radius:5px;
+
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-bottom-right-radius:5px;
+    border-bottom-right-radius:5px;
+
+    -moz-border-radius-topright:5px;
+    -webkit-border-top-right-radius:5px;
+    border-top-right-radius:5px;
+
+    -moz-border-radius-topleft:5px;
+    -webkit-border-top-left-radius:5px;
+    border-top-left-radius:5px;
+}.CSSTable table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%;
+    margin:0px;padding:0px;
+}
+.CSSTable tr:last-child td:last-child {
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-bottom-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.CSSTable table tr:first-child td:first-child {
+    -moz-border-radius-topleft:5px;
+    -webkit-border-top-left-radius:5px;
+    border-top-left-radius:5px;
+}
+.CSSTable table tr:first-child td:last-child {
+    -moz-border-radius-topright:5px;
+    -webkit-border-top-right-radius:5px;
+    border-top-right-radius:5px;
+}.CSSTable tr:last-child td:first-child{
+    -moz-border-radius-bottomleft:5px;
+    -webkit-border-bottom-left-radius:5px;
+    border-bottom-left-radius:5px;
+}.CSSTable tr:hover td{
+    background-color:#ffffff;		
+}
+
+.CSSTable td{
+    vertical-align:top;
+
+    background-color:#ffffff;
+
+    border:1px solid #000000;
+    border-width:0px 1px 1px 0px;
+    text-align:left;
+    padding:7px;
+    font-size:14px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight:normal;
+    color:#666666;
+    line-height: 180%;
+
+}.CSSTable tr:last-child td{
+    border-width:0px 1px 0px 0px;
+}.CSSTable tr td:last-child{
+    border-width:0px 0px 1px 0px;
+}.CSSTable tr:last-child td:last-child{
+    border-width:0px 0px 0px 0px;
+}
+.CSSTable tr:first-child td{
+    background:-o-linear-gradient(bottom, #ffffff 5%, #ffffff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+    background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff");	background: -o-linear-gradient(top,#ffffff,ffffff);
+
+    background-color:#ffffff;
+    border:0px solid #000000;
+    text-align: left;
+    border-width:0px 0px 1px 1px;
+    font-size:13px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight:normal;
+    color:#666666;
+    line-height: 180%;
+}
+.CSSTable tr:first-child:hover td{
+    background:-o-linear-gradient(bottom, #ffffff 5%, #ffffff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+    background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff");	background: -o-linear-gradient(top,#ffffff,ffffff);
+
+    background-color:#ffffff;
+}
+.CSSTable tr:first-child td:first-child{
+    border-width:0px 0px 1px 0px;
+}
+.CSSTable tr:first-child td:last-child{
+    border-width:0px 0px 1px 1px;
+}
+
+.floatleft {
+float: left;
+margin: 0px 5px 0px 0px;
+padding: 1px;
+border: 1px solid #666;
+}
+
+/* Footer */
+
+#footer {
+    width: 980px;
+    height: 120px;
+    margin: 0 auto;
+    background: url(images/img12.gif) repeat-x;
+
+}
+
+#footer p {
+    margin: 0;
+    font-size: 85%;
+}
+
+#sponsor {
+    float: left;
+    width: 260px;
+    height: 45px;
+    padding: 35px 0 0 20px;
+}
+
+#logos {
+    float: both;
+    width: 80px;
+    height: 45px;
+    padding: 15px 0 0 20px;
+}
+
+
+#links a {
+    color: #FFFFFF;
+}
+
+
+
+/* Slideshow */
+
+.slideshow {
+    position: relative;
+    overflow: auto;
+    text-align: right;
+    max-height: 300px;
+}
+.slideshow ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.slideshow ul li {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.slideshow .dots {
+    position: absolute;
+    left: 0;
+    right: 20px;
+    bottom: 20px;
+}
+.slideshow .dots li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+
+    text-indent: 9999em;
+
+    border: 2px solid #fff;
+    border-radius: 6px;
+
+    cursor: pointer;
+    opacity: .4;
+
+    -webkit-transition: background .5s, opacity .5s;
+    -moz-transition: background .5s, opacity 5.s;
+    transition: background .5s, opacity .5s;
+}
+.slideshow .dots li.active {
+    background: #fff;
+    opacity: 1;
+}
+
+
+
+
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+     color:#6666ff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 650px;
+    height: 500px;
+    background-color: #fff; /* #555; */
+    color: #555;   /* #fff; */
+    text-align: left;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border-style: double;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+overflow:auto;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    
+    top: 0%;
+    left: 0%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+		
